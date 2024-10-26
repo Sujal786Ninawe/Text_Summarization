@@ -4,3 +4,12 @@ data_injection:
    source_url: https://github.com/Sujal786Ninawe/Text_Summarization/raw/refs/heads/main/Dataset_text_summarization.zip
    local_data_file: artifacts/data_injection/data.zip
    unzip_dir: artifacts/data_injection
+
+
+
+
+
+data_validation:
+   root_dir : artifacts/data_validation
+   STATUS_FILE : artifacts/data_validation/status.txt
+   ALL_REQUIRED_FILES : ["train","test", "validation "]
